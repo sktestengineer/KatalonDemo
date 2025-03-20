@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('AutomationDemo/Page_My Account  Automation Practice Site/userEmail'), 'testing202777@gmail.com')
+WebUI.sendKeys(findTestObject('AutomationDemo/Page_My Account  Automation Practice Site/userEmail'), 'testing3004@gmail.com')
 
 WebUI.delay(2)
 

@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/RegisterPage","testCaseId":"Test Cases/RegisterPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/LoginPage","testCaseId":"Test Cases/LoginPage","iterationVariableName":"","bindedValues":{"invalidUsername":"\u0027InvalidUsername@gmail.com\u0027","validPassword":"\u0027Testing@12345\u0027","validUsername":"\u0027testing2025@gmail.com\u0027","InvalidPassword":"\u0027Testing@345\u0027"}}
