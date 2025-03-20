@@ -2009,4 +2009,161 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2025-03-20T11:53:35.988024200Z</date>
+  <millis>1742471615988</millis>
+  <nanos>24200</nanos>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestDataForLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:53:36.015725900Z</date>
+  <millis>1742471616015</millis>
+  <nanos>725900</nanos>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:53:36.015725900Z</date>
+  <millis>1742471616015</millis>
+  <nanos>725900</nanos>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\sakumar\Desktop\loginData.xls&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:53:36.110073600Z</date>
+  <millis>1742471616110</millis>
+  <nanos>73600</nanos>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Finding test data with id &amp;apos;Data Files/InvalidTestData&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:53:36.110073600Z</date>
+  <millis>1742471616110</millis>
+  <nanos>73600</nanos>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:53:36.110073600Z</date>
+  <millis>1742471616110</millis>
+  <nanos>73600</nanos>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\sakumar\Desktop\RegisterandLoginWithInvalidCred.xls&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>249</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestDataForLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>250</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>251</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\sakumar\Desktop\loginData.xls&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Finding test data with id &amp;apos;Data Files/InvalidTestData&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>253</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T11:55:30.068828600Z</date>
+  <millis>1742471730068</millis>
+  <nanos>828600</nanos>
+  <sequence>254</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>131</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\sakumar\Desktop\RegisterandLoginWithInvalidCred.xls&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>
