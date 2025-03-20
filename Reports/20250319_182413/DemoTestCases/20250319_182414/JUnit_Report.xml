@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DemoTestCases" time="39.316" tests="2" failures="0" errors="0">
+   <testsuite name="DemoTestCases" tests="2" failures="0" errors="0" time="39.316" skipped="0" timestamp="19-03-2025T18:24:16" hostname="SaKumar - SAKUMAR-0324.freedompay.com" id="Test Suites/DemoTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sakumar\\git\\katalon_training\\Reports\\20250319_182413\\DemoTestCases\\20250319_182414"/>
+         <property name="logFiles" value="C:\\Users\\sakumar\\git\\katalon_training\\Reports\\20250319_182413\\DemoTestCases\\20250319_182414\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SaKumar - SAKUMAR-0324.freedompay.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 134.0.6998.89"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="sessionId" value="00b6b0ba8c6ab4b153768fd611c9ecdb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/RegisterPage" time="16.673" classname="Test Cases/RegisterPage" status="PASSED">
+         <system-out><![CDATA[19-03-2025T18:24:16 - [TEST_CASE][PASSED] - Test Cases/RegisterPage: Test Cases/RegisterPage
+
+19-03-2025T18:24:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-03-2025T18:24:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-03-2025T18:24:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-03-2025T18:24:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-03-2025T18:24:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+19-03-2025T18:24:23 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+19-03-2025T18:24:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-03-2025T18:24:23 - [MESSAGE][PASSED] - Current window maximized
+
+19-03-2025T18:24:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/userEmail"), "testing20222@gmail.com"): Keys 'testing20222@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/userEmail'
+
+19-03-2025T18:24:25 - [MESSAGE][PASSED] - Keys 'testing20222@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/userEmail'
+
+19-03-2025T18:24:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/userPassword"), "Testing@12345"): Keys 'Testing@12345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/userPassword'
+
+19-03-2025T18:24:27 - [MESSAGE][PASSED] - Keys 'Testing@12345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/userPassword'
+
+19-03-2025T18:24:27 - [TEST_STEP][PASSED] - click(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/registerBtn")): Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/registerBtn' is clicked on
+
+19-03-2025T18:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/registerBtn' is clicked on
+
+19-03-2025T18:24:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:33 - [TEST_STEP][PASSED] - comment("User Regsistered successfully"): User Regsistered successfully
+
+19-03-2025T18:24:33 - [MESSAGE][INFO] - User Regsistered successfully
+
+19-03-2025T18:24:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-03-2025T18:24:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginPage" time="22.501" classname="Test Cases/LoginPage" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"invalidUsername":"testing2025@gmail.com","(Default) Expec...":"","validPassword":"Testing@12345","(Default) actua...":"","validUsername":"testing2025@gmail.com","InvalidPassword":"Testing@345"}]]></property>
+         </properties>
+         <system-out><![CDATA[19-03-2025T18:24:33 - [TEST_CASE][PASSED] - Test Cases/LoginPage: Test Cases/LoginPage
+
+19-03-2025T18:24:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-03-2025T18:24:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-03-2025T18:24:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-03-2025T18:24:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-03-2025T18:24:34 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+19-03-2025T18:24:37 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+19-03-2025T18:24:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-03-2025T18:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+19-03-2025T18:24:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login_username"), invalidUsername): Keys 'testing2025@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username'
+
+19-03-2025T18:24:40 - [MESSAGE][PASSED] - Keys 'testing2025@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username'
+
+19-03-2025T18:24:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login__password"), InvalidPassword): Keys 'Testing@345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password'
+
+19-03-2025T18:24:42 - [MESSAGE][PASSED] - Keys 'Testing@345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password'
+
+19-03-2025T18:24:42 - [TEST_STEP][PASSED] - click(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn")): Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn' is clicked on
+
+19-03-2025T18:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn' is clicked on
+
+19-03-2025T18:24:44 - [TEST_STEP][PASSED] - getText(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Page_My Account  Automation Practice Site/li_Error The password you entered for the username FF is incorrect. Lost your password")): Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Page_My Account  Automation Practice Site/li_Error The password you entered for the username FF is incorrect. Lost your password' is: 'Error: The password you entered for the username testing2025@gmail.com is incorrect. Lost your password?'
+
+19-03-2025T18:24:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Page_My Account  Automation Practice Site/li_Error The password you entered for the username FF is incorrect. Lost your password' is: 'Error: The password you entered for the username testing2025@gmail.com is incorrect. Lost your password?'
+
+19-03-2025T18:24:45 - [TEST_STEP][PASSED] - comment("Login unsuccessful"): Login unsuccessful
+
+19-03-2025T18:24:45 - [MESSAGE][INFO] - Login unsuccessful
+
+19-03-2025T18:24:45 - [TEST_STEP][PASSED] - clearText(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login_username")): Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username' is cleared
+
+19-03-2025T18:24:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username' is cleared
+
+19-03-2025T18:24:46 - [TEST_STEP][PASSED] - clearText(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login__password")): Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password' is cleared
+
+19-03-2025T18:24:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password' is cleared
+
+19-03-2025T18:24:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login_username"), validUsername): Keys 'testing2025@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username'
+
+19-03-2025T18:24:46 - [MESSAGE][PASSED] - Keys 'testing2025@gmail.com' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login_username'
+
+19-03-2025T18:24:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/Login__password"), validPassword): Keys 'Testing@12345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password'
+
+19-03-2025T18:24:49 - [MESSAGE][PASSED] - Keys 'Testing@12345' sent to object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/Login__password'
+
+19-03-2025T18:24:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:51 - [TEST_STEP][PASSED] - click(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn")): Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn' is clicked on
+
+19-03-2025T18:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn' is clicked on
+
+19-03-2025T18:24:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-03-2025T18:24:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-03-2025T18:24:53 - [TEST_STEP][PASSED] - comment("User logged in successfully"): User logged in successfully
+
+19-03-2025T18:24:53 - [MESSAGE][INFO] - User logged in successfully
+
+19-03-2025T18:24:53 - [TEST_STEP][PASSED] - ConfirmationMsg = getText(findTestObject("AutomationDemo/Page_My Account  Automation Practice Site/ConfirmationMessageAfterLogin")): Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/ConfirmationMessageAfterLogin' is: 'Hello testing2025 (not testing2025? Sign out)'
+
+19-03-2025T18:24:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/AutomationDemo/Page_My Account  Automation Practice Site/ConfirmationMessageAfterLogin' is: 'Hello testing2025 (not testing2025? Sign out)'
+
+19-03-2025T18:24:55 - [TEST_STEP][PASSED] - verifyEqual(actualMsg, ExpectedMsg): Actual object '' and expected object '' are equal
+
+19-03-2025T18:24:55 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+19-03-2025T18:24:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-03-2025T18:24:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-03-2025T18:24:16 - [TEST_SUITE][PASSED] - DemoTestCases: Test Cases/LoginPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

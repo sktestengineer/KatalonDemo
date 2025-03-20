@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Logout</name>
+   <tag></tag>
+   <elementGuidId>973c1bed-b1fd-46a3-bcec-8309daf309e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--customer-logout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-36']/div/div/nav/ul/li[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Logout&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>a3cea343-01d1-4450-a228-5248158620e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout</value>
+      <webElementGuid>f9f442e9-e26c-4200-b433-83d721d7a7c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+				Logout
+			</value>
+      <webElementGuid>6455c4dc-096b-4d27-acda-e0062184051b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-36&quot;)/div[@class=&quot;page-content entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/nav[@class=&quot;woocommerce-MyAccount-navigation&quot;]/ul[1]/li[@class=&quot;woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout&quot;]</value>
+      <webElementGuid>085f3197-c2ce-4ce6-8d6b-d0f53006fc86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-36']/div/div/nav/ul/li[6]</value>
+      <webElementGuid>a4b6c7d9-7f1a-4990-9390-23b14d2d5bfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[1]/following::li[1]</value>
+      <webElementGuid>23e0794f-1990-4a4c-8c36-3abbf319b95b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Addresses'])[1]/following::li[2]</value>
+      <webElementGuid>925fbd6e-79ba-4804-ac78-252b978cd0cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testing2025'])[1]/preceding::li[1]</value>
+      <webElementGuid>0e1a0678-a495-4b0f-814b-cac6f3ee63bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/nav/ul/li[6]</value>
+      <webElementGuid>769abdd7-fa5a-4953-9c89-e4e8bf867277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '
+				Logout
+			' or . = '
+				Logout
+			')]</value>
+      <webElementGuid>d7c05b3f-0c91-4275-b83b-952c871ea82d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

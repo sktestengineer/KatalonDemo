@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DemoTestCases,Chrome 134.0.6998.89,,,19-03-2025 18:24:16,19-03-2025 18:24:55,39.316s,PASSED
+,,,,,,,
+Test Cases/RegisterPage,Chrome 134.0.6998.89,,,19-03-2025 18:24:16,19-03-2025 18:24:33,16.673s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,19-03-2025 18:24:16,19-03-2025 18:24:18,1.709s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,19-03-2025 18:24:18,19-03-2025 18:24:23,4.790s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,19-03-2025 18:24:23,19-03-2025 18:24:23,0.043s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:23,19-03-2025 18:24:25,2.020s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/userEmail""), ""testing20222@gmail.com"")",Chrome 134.0.6998.89,,,19-03-2025 18:24:25,19-03-2025 18:24:25,0.326s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:25,19-03-2025 18:24:27,2.022s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/userPassword""), ""Testing@12345"")",Chrome 134.0.6998.89,,,19-03-2025 18:24:27,19-03-2025 18:24:27,0.310s,PASSED
+"click(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/registerBtn""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:27,19-03-2025 18:24:31,3.091s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:31,19-03-2025 18:24:33,2.005s,PASSED
+"comment(""User Regsistered successfully"")",Chrome 134.0.6998.89,,,19-03-2025 18:24:33,19-03-2025 18:24:33,0.013s,PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,19-03-2025 18:24:33,19-03-2025 18:24:33,0.181s,PASSED
+,,,,,,,
+Test Cases/LoginPage,Chrome 134.0.6998.89,,,19-03-2025 18:24:33,19-03-2025 18:24:55,22.501s,PASSED
+"DATA BINDING - {""invalidUsername"":""testing2025@gmail.com"",""(Default) Expec..."":"""",""validPassword"":""Testing@12345"",""(Default) actua..."":"""",""validUsername"":""testing2025@gmail.com"",""InvalidPassword"":""Testing@345""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,19-03-2025 18:24:33,19-03-2025 18:24:34,0.899s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,19-03-2025 18:24:34,19-03-2025 18:24:37,3.648s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,19-03-2025 18:24:37,19-03-2025 18:24:37,0.034s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:37,19-03-2025 18:24:39,2.013s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login_username""), invalidUsername)",Chrome 134.0.6998.89,,,19-03-2025 18:24:39,19-03-2025 18:24:40,0.319s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:40,19-03-2025 18:24:42,2.002s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login__password""), InvalidPassword)",Chrome 134.0.6998.89,,,19-03-2025 18:24:42,19-03-2025 18:24:42,0.284s,PASSED
+"click(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:42,19-03-2025 18:24:44,2.162s,PASSED
+"getText(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Page_My Account  Automation Practice Site/li_Error The password you entered for the username FF is incorrect. Lost your password""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:44,19-03-2025 18:24:45,1.236s,PASSED
+"comment(""Login unsuccessful"")",Chrome 134.0.6998.89,,,19-03-2025 18:24:45,19-03-2025 18:24:45,0.000s,PASSED
+"clearText(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login_username""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:45,19-03-2025 18:24:46,0.356s,PASSED
+"clearText(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login__password""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:46,19-03-2025 18:24:46,0.277s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login_username""), validUsername)",Chrome 134.0.6998.89,,,19-03-2025 18:24:46,19-03-2025 18:24:46,0.290s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:46,19-03-2025 18:24:48,2.005s,PASSED
+"sendKeys(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/Login__password""), validPassword)",Chrome 134.0.6998.89,,,19-03-2025 18:24:48,19-03-2025 18:24:49,0.316s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:49,19-03-2025 18:24:51,2.007s,PASSED
+"click(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/LoginBtn""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:51,19-03-2025 18:24:51,0.361s,PASSED
+delay(2),Chrome 134.0.6998.89,,,19-03-2025 18:24:51,19-03-2025 18:24:53,2.018s,PASSED
+"comment(""User logged in successfully"")",Chrome 134.0.6998.89,,,19-03-2025 18:24:53,19-03-2025 18:24:53,0.008s,PASSED
+"ConfirmationMsg = getText(findTestObject(""AutomationDemo/Page_My Account  Automation Practice Site/ConfirmationMessageAfterLogin""))",Chrome 134.0.6998.89,,,19-03-2025 18:24:53,19-03-2025 18:24:55,1.843s,PASSED
+"verifyEqual(actualMsg, ExpectedMsg)",Chrome 134.0.6998.89,,,19-03-2025 18:24:55,19-03-2025 18:24:55,0.031s,PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,19-03-2025 18:24:55,19-03-2025 18:24:55,0.284s,PASSED
